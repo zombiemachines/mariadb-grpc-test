@@ -1,0 +1,25 @@
+<mxfile host="Chrome" modified="2024-02-06T15:07:55.001Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="21.2.7" etag="zkGwrjly3zR3ptQX9E7i" type="device">
+  <diagram id="HBkrmJM6OHyBNa-7cPyR" name="Page-1">
+    <mxGraphModel dx="714" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_EsISusW0u0rV91fosrg-1" value="MariaDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_EsISusW0u0rV91fosrg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_EsISusW0u0rV91fosrg-2" target="_EsISusW0u0rV91fosrg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_EsISusW0u0rV91fosrg-2" value="GRPC Server&lt;br&gt;+&lt;br&gt;Gorm" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="345" y="326.66" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EsISusW0u0rV91fosrg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_EsISusW0u0rV91fosrg-3" target="_EsISusW0u0rV91fosrg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_EsISusW0u0rV91fosrg-3" value="Client&lt;br&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="30" y="314.99" width="75" height="83.34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package grpc;
+
+option go_package = ".";
+
+service PersonService {
+    rpc CreatePerson(CreatePersonRequest) returns (CreatePersonResponse);
+    rpc GetPersonByID(GetPersonByIDRequest) returns (GetPersonByIDResponse);
+    rpc UpdatePerson(UpdatePersonRequest) returns (UpdatePersonResponse);
+    rpc DeletePerson(DeletePersonByIDRequest) returns (DeletePersonByIDResponse);
+
+}
+
+message CreatePersonRequest {
+    string name = 1;
+    int32 age = 2;
+}
+
+message CreatePersonResponse {
+    int32 id = 1;
+}
+
+message GetPersonByIDRequest {
+    int32 id = 1;
+}
+
+message GetPersonByIDResponse {
+    string name = 1;
+    int32 age = 2;
+}
+
+message UpdatePersonRequest {
+    int32 id = 1;
+    string name = 2;
+    int32 age = 3;
+}
+
+message UpdatePersonResponse {
+    bool success = 1;
+}
+
+
+message DeletePersonByIDRequest {
+    int32 id = 1;
+}
+message DeletePersonByIDResponse {
+    bool success = 1;
+}
