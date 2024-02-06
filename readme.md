@@ -10,3 +10,9 @@ protoc.exe --go_out=.\grpc --go-grpc_out=.\grpc .\grpc\example.proto
  cd cd .\client\
   go run .\client.go
 ```
+
+or
+```
+ cd cd .\web\
+  go run .\web.go
+```
