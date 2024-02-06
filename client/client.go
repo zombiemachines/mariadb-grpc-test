@@ -10,7 +10,7 @@ import (
 	pb "github.com/zombiemachines/mariadb-grpc-test/grpc"
 )
 
-var DELETER bool = true
+var DELETER bool = false
 
 func main() {
 	creds, err := credentials.NewClientTLSFromFile("../tls/cert.pem", "")
